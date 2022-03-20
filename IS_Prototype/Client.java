@@ -20,34 +20,34 @@ public class Client extends JFrame{
         
     Client(){
          J1 = new JFrame("TV SCREEN - HOME");
-         J1.add(new JLabel(new ImageIcon("Image1.jpg")));
+         J1.add(new JLabel(new ImageIcon("Images//Image1.jpg")));
          
          J2 = new JFrame("TV SCREEN - NETFLIX");
-         J2.add(new JLabel(new ImageIcon("Image2.jpg")));
+         J2.add(new JLabel(new ImageIcon("Images//Image2.jpg")));
          
          J3 = new JFrame("TV SCREEN - AMAZON PRIME");
-         J3.add(new JLabel(new ImageIcon("Image3.jpg")));
+         J3.add(new JLabel(new ImageIcon("Images//Image3.jpg")));
          
          J4 = new JFrame("TV SCREEN - HOTSTAR");
-         J4.add(new JLabel(new ImageIcon("Image4.jpg")));
+         J4.add(new JLabel(new ImageIcon("Images//Image4.jpg")));
          
          J5 = new JFrame("TV SCREEN - ZEE");
-         J5.add(new JLabel(new ImageIcon("Image5.jpg")));
+         J5.add(new JLabel(new ImageIcon("Images//Image5.jpg")));
          
          J6 = new JFrame("TV SCREEN - VOOT");
-         J6.add(new JLabel(new ImageIcon("Image6.jpg")));
+         J6.add(new JLabel(new ImageIcon("Images//Image6.jpg")));
         
          J7 = new JFrame("TV SCREEN - UTUBE");
-         J7.add(new JLabel(new ImageIcon("Image7.jpg")));
+         J7.add(new JLabel(new ImageIcon("Images//Image7.jpg")));
          
          J8 = new JFrame("TV SCREEN - PHONE BOOK");
-         J8.add(new JLabel(new ImageIcon("Image8.jpg")));
+         J8.add(new JLabel(new ImageIcon("Images//Image8.jpg")));
         
          J9 = new JFrame("TV SCREEN - GALLERY");
-         J9.add(new JLabel(new ImageIcon("Image9.jpg")));
+         J9.add(new JLabel(new ImageIcon("Images//Image9.jpg")));
         
          J10 = new JFrame("TV SCREEN - GMAIL");
-         J10.add(new JLabel(new ImageIcon("Image10.jpg")));
+         J10.add(new JLabel(new ImageIcon("Images//Image10.jpg")));
          
          J1.setBounds(600,100,740,495);
          J2.setBounds(600,100,740,495);

@@ -27,10 +27,10 @@ public class Server extends JFrame implements ActionListener{
        setVisible(true);
 
        setLayout(new BorderLayout());
-       setContentPane(new JLabel(new ImageIcon("mobile.jpg")));
+       setContentPane(new JLabel(new ImageIcon("Images//mobile.jpg")));
        setLayout(null);
 
-       b1 = new JButton("Image Button", new ImageIcon("b1.jpg"));
+       b1 = new JButton("Image Button", new ImageIcon("Images//b1.jpg"));
        b1.setBounds(137, 160, 50, 50);
        b1.setHorizontalTextPosition(AbstractButton.CENTER);
        b1.setVerticalTextPosition(AbstractButton.BOTTOM);
@@ -38,49 +38,49 @@ public class Server extends JFrame implements ActionListener{
        b1.addActionListener(this);
        add(b1);
 
-       b2 = new JButton("Image Button", new ImageIcon("b2.png"));
+       b2 = new JButton("Image Button", new ImageIcon("Images//b2.png"));
        b2.setHorizontalTextPosition(AbstractButton.CENTER);
        b2.setBounds(202,160, 50, 50);
        b2.addActionListener(this);
        add(b2);
 
-       b3 = new JButton("Image Button", new ImageIcon("b3.png"));
+       b3 = new JButton("Image Button", new ImageIcon("Images//b3.png"));
        b3.setBounds(270, 160, 50, 50);
        b3.setHorizontalTextPosition(AbstractButton.CENTER);
        b3.addActionListener(this);
        add(b3);
 
-       b4 = new JButton("Image Button", new ImageIcon("b4.png"));
+       b4 = new JButton("Image Button", new ImageIcon("Images//b4.png"));
        b4.setBounds(137, 270, 50, 50);
        b4.setHorizontalTextPosition(AbstractButton.CENTER);
        b4.addActionListener(this);
        add(b4);
 
-       b5 = new JButton("Image Button", new ImageIcon("b5.png"));
+       b5 = new JButton("Image Button", new ImageIcon("Images//b5.png"));
        b5.setBounds(202, 270, 50, 50);
        b5.setHorizontalTextPosition(AbstractButton.CENTER);
        b5.addActionListener(this);
        add(b5);
 
-       b6 = new JButton("Image Button", new ImageIcon("b6.png"));
+       b6 = new JButton("Image Button", new ImageIcon("Images//b6.png"));
        b6.setBounds(270, 270, 50, 50);
        b6.setHorizontalTextPosition(AbstractButton.CENTER);
        b6.addActionListener(this);
        add(b6);
 
-       b7 = new JButton("Image Button", new ImageIcon("b7.jpg"));
+       b7 = new JButton("Image Button", new ImageIcon("Images//b7.jpg"));
        b7.setBounds(137, 380, 50, 50);
        b7.setHorizontalTextPosition(AbstractButton.CENTER);
        b7.addActionListener(this);
        add(b7);
 
-       b8 = new JButton("Image Button", new ImageIcon("b8.png"));
+       b8 = new JButton("Image Button", new ImageIcon("Images//b8.png"));
        b8.setBounds(202, 380, 50, 50);
        b8.setHorizontalTextPosition(AbstractButton.CENTER);
        b8.addActionListener(this);
        add(b8);
 
-       b9 = new JButton("Image Button", new ImageIcon("b9.png"));
+       b9 = new JButton("Image Button", new ImageIcon("Images//b9.png"));
        b9.setBounds(270, 380, 50, 50);
        b9.setHorizontalTextPosition(AbstractButton.CENTER);
        b9.addActionListener(this);
